@@ -1,0 +1,69 @@
+/* Your card CSS code here */
+.card {
+  position: relative;
+  height: 200px;
+  color: white;
+  background-size: cover;
+  border-radius: 3px;
+  height: 300px;
+  width: 400px;
+
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.card-avatar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+.card-body {
+  height: 100%;
+  background-size: cover;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-description h2 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.card-description p {
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.card-footer {
+  background-color: #F7F7F7;
+  color: grey;
+  font-size: 10px;
+}
+
+.card-footer p{
+  display: flex;
+  margin: 0;
+  height: 30px;
+  align-items: center;
+}
